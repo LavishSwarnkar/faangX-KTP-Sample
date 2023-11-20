@@ -1,7 +1,12 @@
+import com.faangx.ktp.simpleInterestApp
 import com.faangx.ktp.textApp
 
 fun main() {
-    textApp {
-        "Hello world!"
+    simpleInterestApp { p, r, t ->
+        p * r * t / 100f
     }
+
+//    textApp {
+//        "Hola!"
+//    }
 }
